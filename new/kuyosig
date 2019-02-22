@@ -1,0 +1,185 @@
+/*
+to fit in forumotion limit, replace
+lss_1 -> lss_1
+lss_2 -> lss_2
+lss_3 -> lss_3
+lss_4 -> lss_4
+lss_5 -> lss_5
+lss_6 -> lss_6
+*/
+@media screen and (min-device-width: 1000px) { 
+
+
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+
+.lss_4 {
+	text-shadow: 1px 1px #aeaeae, 
+                 2px 2px #aeaeae, 
+                 3px 3px #aeaeae;
+	font-size: 35px;
+	color: black;
+}
+
+.lss_1 {
+	width: 550px;
+	height: 300px;
+	padding: 0px;
+	margin: 0px;
+	display: table;
+	background-color: green;
+}
+
+.lss_2 {
+	width: 50px;
+	height: 300px;
+	display: table-cell;
+	position: relative;
+	
+	transition: width 1s;
+	-webkit-transition: width 1s;
+}
+.lss_24 {
+	background-image: url('https://i.pinimg.com/originals/33/f7/6e/33f76e9be71905eae443739ad055a582.png');
+	background-color: blue;
+}
+.lss_23 {
+	background-image: url('https://i.pinimg.com/originals/00/12/af/0012af0b82edd74bfeb68d08e1e45f9e.png');
+	background-color: green;
+}
+.lss_22 {
+	background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/7dedc815-7488-4a6d-81ea-c0ba52fdd647/d9w87jb-69213de0-dd94-4262-873c-46aa033a77a2.png/v1/fill/w_273,h_350,strp/isana_yashiro_render_2_by_nekiry_d9w87jb-350t.png');
+	background-color: purple;
+}
+.lss_21 {
+	background-image: url('https://i.pinimg.com/originals/14/67/d8/1467d81995d6a1269ebc40b2815723b2.png');
+	background-color: black;
+}
+
+.lss_1:not(:hover) > .lss_21 {
+	width: 400px;
+}
+
+.lss_2:hover {
+	width: 400px;
+}
+
+
+
+.lss_5 {
+	position: absolute;
+	height: 200px;
+	width: 150px;
+	top: 50px;
+	left: 10px;
+	
+	opacity: 0;
+	transition: opacity 1s;
+}
+.lss_51 {
+	left: 175px;
+}
+.lss_52 {
+}
+.lss_53 {
+	height: 50px;
+	top: 5px;
+}
+.lss_54 {
+	height: 50px;
+	top: 220px;
+}
+.lss_2:hover > .lss_5:not(:hover), .lss_2:hover > a > .lss_5:not(:hover) {
+	opacity: .4;
+}
+.lss_5:hover {
+	opacity: 1;
+}
+.lss_1:not(:hover) > .lss_21 > .lss_5 {
+	opacity: .4
+}
+
+
+.lss_absCenteredText {
+	width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	
+	font-size: 20;
+	font-family: 'Nova Mono', monospace;
+	
+	color: white;
+    text-shadow: -1px -1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                 1px 1px 0 #000;
+}
+
+.lss_6 {
+	background-color: rgba(255,204,0,0);
+	transition: background-color 1s, opacity 1s;
+	
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 150px / 50px;
+}
+.lss_6:hover {
+	background-color: rgba(255,204,0,1);
+}
+
+
+
+.lss_3 {
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+	
+	
+  white-space: nowrap;
+	
+	
+	transform-origin: bottom right;
+	-webkit-transform-origin: bottom right;
+	-moz-transform-origin: bottom right;
+	-o-transform-origin: bottom right;
+	-ms-transform-origin: bottom right;
+	
+	transform: rotate(-90deg) translateY(-100%);
+	-webkit-transform: rotate(-90deg) translateX(100%);
+	-moz-transform: rotate(-90deg) translateY(-100%);
+	-o-transform: rotate(-90deg) translateY(-100%);
+	-ms-transform: rotate(90deg) translateY(-100%);
+}
+.lss_2:hover > .lss_3 {
+	animation: lss_rotateBack .5s ease-in-out 1;
+	animation-fill-mode: forwards;
+	
+	-webkit-animation: lss_rotateBack .5s ease-in-out 1;
+	-webkit-animation-fill-mode: forwards;
+	
+	-moz-animation: lss_rotateBack .5s ease-in-out 1;
+	-moz-animation-fill-mode: forwards;
+	
+	-o-animation: lss_rotateBack .5s ease-in-out 1;
+	-o-animation-fill-mode: forwards;
+	
+	-ms-animation: lss_rotateBack .5s ease-in-out 1;
+	-ms-animation-fill-mode: forwards;
+}
+
+@keyframes lss_rotateBack {	100% { transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-webkit-keyframes lss_rotateBack {	100% { -webkit-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-moz-keyframes lss_rotateBack {	100% { -moz-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-o-keyframes lss_rotateBack {	100% { -o-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-ms-keyframes lss_rotateBack {	100% { -ms-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+
+}
+
+@media screen and (max-device-width: 999px) {
+	.lss_1::before {
+		content: "Signature super simplified due to the possibility of this being a mobile device! Sorry it's ugly now!"
+	}
+}
