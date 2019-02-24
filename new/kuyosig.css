@@ -1,18 +1,18 @@
 /*
 to fit in forumotion limit, replace
-lss_1 -> lss_1
-lss_2 -> lss_2
-lss_3 -> lss_3
-lss_4 -> lss_4
-lss_5 -> lss_5
-lss_6 -> lss_6
+fss_1 -> fss_1
+fss_2 -> fss_2
+fss_3 -> fss_3
+fss_4 -> fss_4
+fss_5 -> fss_5
+fss_6 -> fss_6
 */
 @media screen and (min-device-width: 1000px) { 
 
 
 @import url('https://fonts.googleapis.com/css?family=Nova+Mono');
 
-.lss_4 {
+.fss_4 {
 	text-shadow: 1px 1px #aeaeae, 
                  2px 2px #aeaeae, 
                  3px 3px #aeaeae;
@@ -20,7 +20,7 @@ lss_6 -> lss_6
 	color: black;
 }
 
-.lss_1 {
+.fss_1 {
 	width: 550px;
 	height: 300px;
 	padding: 0px;
@@ -29,7 +29,7 @@ lss_6 -> lss_6
 	background-color: green;
 }
 
-.lss_2 {
+.fss_2 {
 	width: 50px;
 	height: 300px;
 	display: table-cell;
@@ -38,34 +38,34 @@ lss_6 -> lss_6
 	transition: width 1s;
 	-webkit-transition: width 1s;
 }
-.lss_24 {
+.fss_24 {
 	background-image: url('https://i.pinimg.com/originals/33/f7/6e/33f76e9be71905eae443739ad055a582.png');
 	background-color: blue;
 }
-.lss_23 {
+.fss_23 {
 	background-image: url('http://oi66.tinypic.com/28lds3m.jpg');
 	background-color: green;
 }
-.lss_22 {
+.fss_22 {
 	background-image: url('https://i.pinimg.com/originals/00/12/af/0012af0b82edd74bfeb68d08e1e45f9e.png');
 	background-color: purple;
 }
-.lss_21 {
+.fss_21 {
 	background-image: url('http://oi65.tinypic.com/oksguf.jpg');
 	background-color: black;
 }
 
-.lss_1:not(:hover) > .lss_21 {
+.fss_1:not(:hover) > .fss_21 {
 	width: 400px;
 }
 
-.lss_2:hover {
+.fss_2:hover {
 	width: 400px;
 }
 
 
 
-.lss_5 {
+.fss_5 {
 	position: absolute;
 	height: 200px;
 	width: 150px;
@@ -75,31 +75,31 @@ lss_6 -> lss_6
 	opacity: 0;
 	transition: opacity 1s;
 }
-.lss_51 {
+.fss_51 {
 	left: 175px;
 }
-.lss_52 {
+.fss_52 {
 }
-.lss_53 {
+.fss_53 {
 	height: 50px;
 	top: 5px;
 }
-.lss_54 {
+.fss_54 {
 	height: 50px;
 	top: 220px;
 }
-.lss_2:hover > .lss_5:not(:hover), .lss_2:hover > a > .lss_5:not(:hover) {
+.fss_2:hover > .fss_5:not(:hover), .fss_2:hover > a > .fss_5:not(:hover) {
 	opacity: .4;
 }
-.lss_5:hover {
+.fss_5:hover {
 	opacity: 1;
 }
-.lss_1:not(:hover) > .lss_21 > .lss_5 {
+.fss_1:not(:hover) > .fss_21 > .fss_5 {
 	opacity: .4
 }
 
 
-.lss_absCenteredText {
+.fss_absCenteredText {
 	width: 75px;
 	margin-left: auto;
 	margin-right: auto;
@@ -118,7 +118,7 @@ lss_6 -> lss_6
                  1px 1px 0 #000;
 }
 
-.lss_6 {
+.fss_6 {
 	background-color: rgba(255,204,0,0);
 	transition: background-color 1s, opacity 1s;
 	
@@ -126,13 +126,13 @@ lss_6 -> lss_6
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 150px / 50px;
 }
-.lss_6:hover {
+.fss_6:hover {
 	background-color: rgba(255,204,0,1);
 }
 
 
 
-.lss_3 {
+.fss_3 {
 	position: absolute;
 	bottom: 3px;
 	right: 3px;
@@ -153,33 +153,33 @@ lss_6 -> lss_6
 	-o-transform: rotate(-90deg) translateY(-100%);
 	-ms-transform: rotate(90deg) translateY(-100%);
 }
-.lss_2:hover > .lss_3 {
-	animation: lss_rotateBack .5s ease-in-out 1;
+.fss_2:hover > .fss_3 {
+	animation: fss_rotateBack .5s ease-in-out 1;
 	animation-fill-mode: forwards;
 	
-	-webkit-animation: lss_rotateBack .5s ease-in-out 1;
+	-webkit-animation: fss_rotateBack .5s ease-in-out 1;
 	-webkit-animation-fill-mode: forwards;
 	
-	-moz-animation: lss_rotateBack .5s ease-in-out 1;
+	-moz-animation: fss_rotateBack .5s ease-in-out 1;
 	-moz-animation-fill-mode: forwards;
 	
-	-o-animation: lss_rotateBack .5s ease-in-out 1;
+	-o-animation: fss_rotateBack .5s ease-in-out 1;
 	-o-animation-fill-mode: forwards;
 	
-	-ms-animation: lss_rotateBack .5s ease-in-out 1;
+	-ms-animation: fss_rotateBack .5s ease-in-out 1;
 	-ms-animation-fill-mode: forwards;
 }
 
-@keyframes lss_rotateBack {	100% { transform: rotate(0deg) translateX(0%) translateY(0%); } }
-@-webkit-keyframes lss_rotateBack {	100% { -webkit-transform: rotate(0deg) translateX(0%) translateY(0%); } }
-@-moz-keyframes lss_rotateBack {	100% { -moz-transform: rotate(0deg) translateX(0%) translateY(0%); } }
-@-o-keyframes lss_rotateBack {	100% { -o-transform: rotate(0deg) translateX(0%) translateY(0%); } }
-@-ms-keyframes lss_rotateBack {	100% { -ms-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@keyframes fss_rotateBack {	100% { transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-webkit-keyframes fss_rotateBack {	100% { -webkit-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-moz-keyframes fss_rotateBack {	100% { -moz-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-o-keyframes fss_rotateBack {	100% { -o-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-ms-keyframes fss_rotateBack {	100% { -ms-transform: rotate(0deg) translateX(0%) translateY(0%); } }
 
 }
 
 @media screen and (max-device-width: 999px) {
-	.lss_1::before {
+	.fss_1::before {
 		content: "Signature super simplified due to the possibility of this being a mobile device! Sorry it's ugly now!"
 	}
 }
