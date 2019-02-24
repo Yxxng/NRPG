@@ -55,7 +55,7 @@ fus_6 -> fus_6
 	background-color: black;
 }
 
-.fus_1:not(:hover) > .fss_21 {
+.fus_1:not(:hover) > .fus_21 {
 	width: 400px;
 }
 
