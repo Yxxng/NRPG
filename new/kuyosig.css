@@ -1,18 +1,18 @@
 /*
 to fit in forumotion limit, replace
-fuyo_1 -> fuyo_1
-fuyo_2 -> fuyo_2
-fuyo_3 -> fuyo_3
-fuyo_4 -> fuyo_4
-fuyo_5 -> fuyo_5
-fuyo_6 -> fuyo_6
+fuyo1 -> fuy_1
+fuyo2 -> fuy_2
+fuyo3 -> fuy_3
+fuyo4 -> fuy_4
+fuyo5 -> fuy_5
+fuyo6 -> fuy_6
 */
 @media screen and (min-device-width: 1000px) { 
 
 
 @import url('https://fonts.googleapis.com/css?family=Nova+Mono');
 
-.fuyo_4 {
+.fuyo4 {
 	text-shadow: 1px 1px #aeaeae, 
                  2px 2px #aeaeae, 
                  3px 3px #aeaeae;
@@ -20,7 +20,7 @@ fuyo_6 -> fuyo_6
 	color: black;
 }
 
-.fuyo_1 {
+.fuyo1 {
 	width: 550px;
 	height: 300px;
 	padding: 0px;
@@ -29,7 +29,7 @@ fuyo_6 -> fuyo_6
 	background-color: green;
 }
 
-.fuyo_2 {
+.fuyo2 {
 	width: 50px;
 	height: 300px;
 	display: table-cell;
@@ -38,34 +38,34 @@ fuyo_6 -> fuyo_6
 	transition: width 1s;
 	-webkit-transition: width 1s;
 }
-.fuyo_24 {
+.fuyo24 {
 	background-image: url('https://i.pinimg.com/originals/33/f7/6e/33f76e9be71905eae443739ad055a582.png');
 	background-color: blue;
 }
-.fuyo_23 {
+.fuyo23 {
 	background-image: url('http://oi66.tinypic.com/28lds3m.jpg');
 	background-color: green;
 }
-.fuyo_22 {
+.fuyo22 {
 	background-image: url('https://i.pinimg.com/originals/00/12/af/0012af0b82edd74bfeb68d08e1e45f9e.png');
 	background-color: purple;
 }
-.fuyo_21 {
+.fuyo21 {
 	background-image: url('http://oi65.tinypic.com/oksguf.jpg');
 	background-color: black;
 }
 
-.fuyo_1:not(:hover) > .fuyo_21 {
+.fuyo1:not(:hover) > .fuyo21 {
 	width: 400px;
 }
 
-.fuyo_2:hover {
+.fuyo2:hover {
 	width: 400px;
 }
 
 
 
-.fuyo_5 {
+.fuyo5 {
 	position: absolute;
 	height: 200px;
 	width: 150px;
@@ -75,26 +75,26 @@ fuyo_6 -> fuyo_6
 	opacity: 0;
 	transition: opacity 1s;
 }
-.fuyo_51 {
+.fuyo51 {
 	left: 175px;
 }
-.fuyo_52 {
+.fuyo52 {
 }
-.fuyo_53 {
+.fuyo53 {
 	height: 50px;
 	top: 5px;
 }
-.fuyo_54 {
+.fuyo54 {
 	height: 50px;
 	top: 220px;
 }
-.fuyo_2:hover > .fuyo_5:not(:hover), .fuyo_2:hover > a > .fuyo_5:not(:hover) {
+.fuyo2:hover > .fuyo5:not(:hover), .fuyo2:hover > a > .fuyo5:not(:hover) {
 	opacity: .4;
 }
-.fuyo_5:hover {
+.fuyo5:hover {
 	opacity: 1;
 }
-.fuyo_1:not(:hover) > .fuyo_21 > .fuyo_5 {
+.fuyo1:not(:hover) > .fuyo21 > .fuyo5 {
 	opacity: .4
 }
 
@@ -118,7 +118,7 @@ fuyo_6 -> fuyo_6
                  1px 1px 0 #000;
 }
 
-.fuyo_6 {
+.fuyo6 {
 	background-color: rgba(255,204,0,0);
 	transition: background-color 1s, opacity 1s;
 	
@@ -126,13 +126,13 @@ fuyo_6 -> fuyo_6
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 150px / 50px;
 }
-.fuyo_6:hover {
+.fuyo6:hover {
 	background-color: rgba(255,204,0,1);
 }
 
 
 
-.fuyo_3 {
+.fuyo3 {
 	position: absolute;
 	bottom: 3px;
 	right: 3px;
@@ -153,7 +153,7 @@ fuyo_6 -> fuyo_6
 	-o-transform: rotate(-90deg) translateY(-100%);
 	-ms-transform: rotate(90deg) translateY(-100%);
 }
-.fuyo_2:hover > .fuyo_3 {
+.fuyo2:hover > .fuyo3 {
 	animation: fuyo_rotateBack .5s ease-in-out 1;
 	animation-fill-mode: forwards;
 	
@@ -179,7 +179,7 @@ fuyo_6 -> fuyo_6
 }
 
 @media screen and (max-device-width: 999px) {
-	.fuyo_1::before {
+	.fuyo1::before {
 		content: "Signature super simplified due to the possibility of this being a mobile device! Sorry it's ugly now!"
 	}
 }
