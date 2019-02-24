@@ -1,18 +1,18 @@
 /*
 to fit in forumotion limit, replace
-fus_1 -> fus_1
-fus_2 -> fus_2
-fus_3 -> fus_3
-fus_4 -> fus_4
-fus_5 -> fus_5
-fus_6 -> fus_6
+fuyo_1 -> fus_1
+fuyo_2 -> fus_2
+fuyo_3 -> fus_3
+fuyo_4 -> fus_4
+fuyo_5 -> fus_5
+fuyo_6 -> fus_6
 */
 @media screen and (min-device-width: 1000px) { 
 
 
 @import url('https://fonts.googleapis.com/css?family=Nova+Mono');
 
-.fus_4 {
+.fuyo_4 {
 	text-shadow: 1px 1px #aeaeae, 
                  2px 2px #aeaeae, 
                  3px 3px #aeaeae;
@@ -20,7 +20,7 @@ fus_6 -> fus_6
 	color: black;
 }
 
-.fus_1 {
+.fuyo_1 {
 	width: 550px;
 	height: 300px;
 	padding: 0px;
@@ -29,7 +29,7 @@ fus_6 -> fus_6
 	background-color: green;
 }
 
-.fus_2 {
+.fuyo_2 {
 	width: 50px;
 	height: 300px;
 	display: table-cell;
@@ -38,34 +38,34 @@ fus_6 -> fus_6
 	transition: width 1s;
 	-webkit-transition: width 1s;
 }
-.fus_24 {
+.fuyo_24 {
 	background-image: url('https://i.pinimg.com/originals/33/f7/6e/33f76e9be71905eae443739ad055a582.png');
 	background-color: blue;
 }
-.fus_23 {
+.fuyo_23 {
 	background-image: url('http://oi66.tinypic.com/28lds3m.jpg');
 	background-color: green;
 }
-.fus_22 {
+.fuyo_22 {
 	background-image: url('https://i.pinimg.com/originals/00/12/af/0012af0b82edd74bfeb68d08e1e45f9e.png');
 	background-color: purple;
 }
-.fus_21 {
+.fuyo_21 {
 	background-image: url('http://oi65.tinypic.com/oksguf.jpg');
 	background-color: black;
 }
 
-.fus_1:not(:hover) > .fus_21 {
+.fuyo_1:not(:hover) > .fuyo_21 {
 	width: 400px;
 }
 
-.fus_2:hover {
+.fuyo_2:hover {
 	width: 400px;
 }
 
 
 
-.fus_5 {
+.fuyo_5 {
 	position: absolute;
 	height: 200px;
 	width: 150px;
@@ -75,31 +75,31 @@ fus_6 -> fus_6
 	opacity: 0;
 	transition: opacity 1s;
 }
-.fus_51 {
+.fuyo_51 {
 	left: 175px;
 }
-.fus_52 {
+.fuyo_52 {
 }
-.fus_53 {
+.fuyo_53 {
 	height: 50px;
 	top: 5px;
 }
-.fus_54 {
+.fuyo_54 {
 	height: 50px;
 	top: 220px;
 }
-.fus_2:hover > .fus_5:not(:hover), .fus_2:hover > a > .fus_5:not(:hover) {
+.fuyo_2:hover > .fuyo_5:not(:hover), .fuyo_2:hover > a > .fuyo_5:not(:hover) {
 	opacity: .4;
 }
-.fus_5:hover {
+.fuyo_5:hover {
 	opacity: 1;
 }
-.fus_1:not(:hover) > .fus_21 > .fus_5 {
+.fuyo_1:not(:hover) > .fuyo_21 > .fuyo_5 {
 	opacity: .4
 }
 
 
-.fus_absCenteredText {
+.fuyo_absCenteredText {
 	width: 75px;
 	margin-left: auto;
 	margin-right: auto;
@@ -118,7 +118,7 @@ fus_6 -> fus_6
                  1px 1px 0 #000;
 }
 
-.fus_6 {
+.fuyo_6 {
 	background-color: rgba(255,204,0,0);
 	transition: background-color 1s, opacity 1s;
 	
@@ -126,13 +126,13 @@ fus_6 -> fus_6
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 150px / 50px;
 }
-.fus_6:hover {
+.fuyo_6:hover {
 	background-color: rgba(255,204,0,1);
 }
 
 
 
-.fus_3 {
+.fuyo_3 {
 	position: absolute;
 	bottom: 3px;
 	right: 3px;
@@ -153,33 +153,33 @@ fus_6 -> fus_6
 	-o-transform: rotate(-90deg) translateY(-100%);
 	-ms-transform: rotate(90deg) translateY(-100%);
 }
-.fus_2:hover > .fus_3 {
-	animation: fus_rotateBack .5s ease-in-out 1;
+.fuyo_2:hover > .fuyo_3 {
+	animation: fuyo_rotateBack .5s ease-in-out 1;
 	animation-fill-mode: forwards;
 	
-	-webkit-animation: fus_rotateBack .5s ease-in-out 1;
+	-webkit-animation: fuyo_rotateBack .5s ease-in-out 1;
 	-webkit-animation-fill-mode: forwards;
 	
-	-moz-animation: fus_rotateBack .5s ease-in-out 1;
+	-moz-animation: fuyo_rotateBack .5s ease-in-out 1;
 	-moz-animation-fill-mode: forwards;
 	
-	-o-animation: fus_rotateBack .5s ease-in-out 1;
+	-o-animation: fuyo_rotateBack .5s ease-in-out 1;
 	-o-animation-fill-mode: forwards;
 	
-	-ms-animation: fus_rotateBack .5s ease-in-out 1;
+	-ms-animation: fuyo_rotateBack .5s ease-in-out 1;
 	-ms-animation-fill-mode: forwards;
 }
 
-@keyframes fus_rotateBack {	100% { transform: rotate(0deg) translateX(0%) translateY(0%); } }
-@-webkit-keyframes fus_rotateBack {	100% { -webkit-transform: rotate(0deg) translateX(0%) translateY(0%); } }
-@-moz-keyframes fus_rotateBack {	100% { -moz-transform: rotate(0deg) translateX(0%) translateY(0%); } }
-@-o-keyframes fus_rotateBack {	100% { -o-transform: rotate(0deg) translateX(0%) translateY(0%); } }
-@-ms-keyframes fus_rotateBack {	100% { -ms-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@keyframes fuyo_rotateBack {	100% { transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-webkit-keyframes fuyo_rotateBack {	100% { -webkit-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-moz-keyframes fuyo_rotateBack {	100% { -moz-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-o-keyframes fuyo_rotateBack {	100% { -o-transform: rotate(0deg) translateX(0%) translateY(0%); } }
+@-ms-keyframes fuyo_rotateBack {	100% { -ms-transform: rotate(0deg) translateX(0%) translateY(0%); } }
 
 }
 
 @media screen and (max-device-width: 999px) {
-	.fus_1::before {
+	.fuyo_1::before {
 		content: "Signature super simplified due to the possibility of this being a mobile device! Sorry it's ugly now!"
 	}
 }
